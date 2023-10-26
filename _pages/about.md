@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href=''>CMU RI student | Machine Learning Research Engineer</a>
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: Wesley.jpg
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
@@ -15,10 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I was a master student in computer vision at [Carnegie Mellon University](https://www.cmu.edu/), where I was advised by Professor [Deva Ramanan](https://www.cs.cmu.edu/~deva/). My research experience lies in the fields of machine learning (ML) and computer vision (CV), including topics like [self-supervised learning](https://openaccess.thecvf.com/content/WACV2023/papers/Hsieh_Self-Supervised_Pyramid_Representation_Learning_for_Multi-Label_Visual_Analysis_and_Beyond_WACV_2023_paper.pdf), object tracking, and vision-language models. 
+More specifically, my research pursuits are centered around the development of algorithms that enhance perceptual capabilities under challenging conditions, such as occlusion, leveraging minimal supervision and multimodal information. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to my master journey, I received my B.S. from [National Taiwan University](https://www.ntu.edu.tw/english/). I worked on self-supervised representation learning with Professor [Yu-Chiang Frank Wang](http://vllab.ee.ntu.edu.tw/members.html) and [federated learning](http://access.ee.ntu.edu.tw/Publications/Conference/(2021)%20FL-HDC_Hyperdimensional_Computing_Design_for_the_Application_of_Federated_Learning.pdf) with Professor [An-Yeu (Andy) Wu](http://access.ee.ntu.edu.tw/).
 
 [Github](https://github.com/WesleyHsieh0806) / [Google Scholar](https://scholar.google.com/citations?user=0V8wixoAAAAJ&hl=en) / [chengyeh@andrew.cmu.edu](mailto:chengyeh@andrew.cmu.edu)

@@ -32,3 +32,7 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+  
+"Wang":
+  - firstname: ["Yu-Chiang Frank"]
+    url: http://vllab.ee.ntu.edu.tw/members.html

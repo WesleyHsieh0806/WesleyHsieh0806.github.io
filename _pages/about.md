@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=''>CMU RI student | Machine Learning Research Engineer</a>
+subtitle: CMU RI student | Machine Learning Research Engineer
 
 profile:
   align: left
@@ -15,9 +15,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I was a master student in computer vision at [Carnegie Mellon University](https://www.cmu.edu/), where I was advised by Professor [Deva Ramanan](https://www.cs.cmu.edu/~deva/). My research experience lies in the fields of machine learning (ML) and computer vision (CV), including topics like [self-supervised learning](https://openaccess.thecvf.com/content/WACV2023/papers/Hsieh_Self-Supervised_Pyramid_Representation_Learning_for_Multi-Label_Visual_Analysis_and_Beyond_WACV_2023_paper.pdf), object tracking, and vision-language models. 
+I was a master student in computer vision at [Carnegie Mellon University](https://www.cmu.edu/), where I was advised by Prof. [Deva Ramanan](https://www.cs.cmu.edu/~deva/). My research experience lies in the fields of machine learning (ML) and computer vision (CV), including topics like [self-supervised learning](https://openaccess.thecvf.com/content/WACV2023/papers/Hsieh_Self-Supervised_Pyramid_Representation_Learning_for_Multi-Label_Visual_Analysis_and_Beyond_WACV_2023_paper.pdf), object tracking, and vision-language models. 
 More specifically, my research pursuits are centered around the development of algorithms that enhance perceptual capabilities under challenging conditions, such as occlusion, leveraging minimal supervision and multimodal information. 
 
-Prior to my master journey, I received my B.S. from [National Taiwan University](https://www.ntu.edu.tw/english/). I worked on self-supervised representation learning with Professor [Yu-Chiang Frank Wang](http://vllab.ee.ntu.edu.tw/members.html) and [federated learning](http://access.ee.ntu.edu.tw/Publications/Conference/(2021)%20FL-HDC_Hyperdimensional_Computing_Design_for_the_Application_of_Federated_Learning.pdf) with Professor [An-Yeu (Andy) Wu](http://access.ee.ntu.edu.tw/).
+Prior to my master journey, I received my B.S. from [National Taiwan University](https://www.ntu.edu.tw/english/). I had the pleasure to work on self-supervised representation learning with Prof. [Yu-Chiang Frank Wang](http://vllab.ee.ntu.edu.tw/members.html) and [federated learning](http://access.ee.ntu.edu.tw/Publications/Conference/(2021)%20FL-HDC_Hyperdimensional_Computing_Design_for_the_Application_of_Federated_Learning.pdf) with Prof. [An-Yeu (Andy) Wu](http://access.ee.ntu.edu.tw/).
+
+<br>
+<br>
 
 [Github](https://github.com/WesleyHsieh0806) / [Google Scholar](https://scholar.google.com/citations?user=0V8wixoAAAAJ&hl=en) / [chengyeh@andrew.cmu.edu](mailto:chengyeh@andrew.cmu.edu)

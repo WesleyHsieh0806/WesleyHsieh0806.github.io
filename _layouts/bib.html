@@ -17,6 +17,13 @@
     <p><a href="{{image_link}}">
         <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
       </a></p>
+    {%- elsif entry.preview contains '.mp4' -%}
+    <p><a href="{{image_link}}">
+        <video class="preview z-depth-1 rounded" muted="" playsinline="" autoplay="" loop=""
+          poster="{{ entry.preview_img }}" preload="auto">
+          <source src="{{ entry.preview }}" type="video/mp4">
+        </video>
+      </a></p>
     {%- else -%}
     {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
     {% include figure.html

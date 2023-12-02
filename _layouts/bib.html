@@ -5,8 +5,8 @@
   {%- if site.enable_publication_thumbnails -%}
   <div class="col-sm-7 {% if entry.preview %}preview{% else %}abbr{% endif %}">
     {%- if entry.preview -%}
-    {% if entry.html -%}
-    {%- assign image_link = entry.html -%}
+    {% if entry.teaser_html -%}
+    {%- assign image_link = entry.teaser_html -%}
     {% elsif entry.code -%}
     {%- assign image_link = entry.code -%}
     {% else -%}
@@ -30,7 +30,8 @@
     path=entry_path
     class="preview z-depth-1 rounded"
     zoomable=false
-    alt=entry.preview -%}
+    alt=entry.preview
+    image_link=entry.teaser_html -%}
     {%- endif -%}
     {%- elsif entry.abbr -%}
     {%- if site.data.venues[entry.abbr] -%}

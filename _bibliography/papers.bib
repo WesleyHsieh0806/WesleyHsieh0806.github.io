@@ -3,7 +3,7 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{hsieh2023self,
+@book{hsieh2023taoamodal,
   type={article},
   abstract={Amodal perception, the ability to comprehend complete object structures from partial visibility, is a fundamental skill, even for infants. 
   Its significance extends to applications like autonomous driving, where a clear understanding of heavily occluded objects is essential. 
@@ -17,6 +17,7 @@
   title={Tracking Any Object Amodally},
   title_html={https://tao-amodal.github.io/},
   html={https://tao-amodal.github.io/},
+  teaser_html={https://tao-amodal.github.io/},
   author={Hsieh, Cheng-Yen and Tarasha Khurana and Dave, Achal and Deva Ramanan},
   publisher={arXiv},
   journal={in Submission},
@@ -27,11 +28,11 @@
   pages={},
   numpages={},
   year={2023},
-  month={},
+  month={Nov.},
   selected={true},
   preview={/assets/video/tao_amodal.mp4},
   preview_img={/assets/img/publication_preview/tao_amodal.png},
-  note={Our solution to unravel occlusion scenarios for any object, amodal tracking.},
+  note={Our solution to unravel occlusion scenarios for any object—amodal tracking.},
 }
 
 @book{hsieh2023self,
@@ -47,7 +48,7 @@
     and instance segmentation.},
   title={Self-Supervised Pyramid Representation Learning for Multi-Label Visual Analysis and Beyond},
   title_html={https://github.com/WesleyHsieh0806/SS-PRL},
-  html={https://github.com/WesleyHsieh0806/SS-PRL},
+  teaser_html={https://github.com/WesleyHsieh0806/SS-PRL},
   author={Hsieh, Cheng-Yen and Chang, Chih-Jung and Yang, Fu-En and Wang, Yu-Chiang Frank},
   publisher={arxiv},
   journal={IEEE WACV},
@@ -64,4 +65,74 @@
   selected={true},
   preview={https://github.com/WesleyHsieh0806/SS-PRL/raw/master/GIF/Framework%20Gif.gif},
   note={One can easily adapt and fine-tune the models for a variety of applications including multi-label classification, object detection,and instance segmentation with this pre-training algorithm.},
+}
+
+@book{hsieh2022c3,
+  type={article},
+  abstract={Most existing studies improve the efficiency of Split learning
+            (SL) by compressing the transmitted features. However, most
+            works focus on dimension-wise compression that transforms
+            high-dimensional features into a low-dimensional space. In
+            this paper, we propose circular convolution-based batch-wise
+            compression for SL (C3-SL) to compress multiple features
+            into one single feature. To avoid information loss while merging multiple features, we exploit the quasi-orthogonality of
+            features in high-dimensional space with circular convolution
+            and superposition. To the best of our knowledge, we are
+            the first to explore the potential of batch-wise compression
+            under the SL scenario. Based on the simulation results on
+            CIFAR-10 and CIFAR-100, our method achieves a 16x compression ratio with negligible accuracy drops compared with
+            the vanilla SL. Moreover, C3-SL significantly reduces 1152x
+            memory and 2.25x computation overhead compared to the
+            state-of-the-art dimension-wise compression method.},
+  title={C3-SL: Circular Convolution-Based Batch-Wise Compression for Communication-Efficient Split Learning},
+  title_html={https://github.com/WesleyHsieh0806/C3-SL},
+  teaser_html={https://github.com/WesleyHsieh0806/C3-SL},
+  author={Cheng-Yen Hsieh and Yu-Chuan Chuang and An-Yeu (Andy) Wu},
+  publisher={},
+  journal={IEEE 32nd International Workshop on Machine Learning for Signal Processing (MLSP)},
+  booktitle={},
+  conference={},
+  volume={},
+  issue={},
+  pages={},
+  numpages={},
+  year={2022},
+  month={},
+  code={https://github.com/WesleyHsieh0806/C3-SL},
+  pdf={https://arxiv.org/pdf/2207.12397.pdf},
+  selected={true},
+  preview={c3-sl.png},
+  note={Split Learning (SL) for efficient image recognition through dimension-wise compression.},
+}
+
+
+@book{hsieh2021fl,
+  type={article},
+  abstract={Federated learning (FL) is a privacy-preserving learning framework, which collaboratively learns a centralized model across edge devices. 
+            Each device trains an independent model with its local dataset and only uploads model parameters to mitigate privacy concerns. However, 
+            most FL works focus on deep neural networks (DNNs), whose intensive computation hinders FL from practical realization on resource-limited edge devices. 
+            In this paper, we exploit the high energy efficiency properties of hyperdimensional computing (HDC) to propose a federated learning HDC (FL-HDC). In FL-HDC, 
+            we bipolarize model parameters to significantly reduce communication costs, which is a primary concern in FL. Moreover, we propose a retraining mechanism with 
+            adaptive learning rates to compensate for the accuracy degradation caused by bipolarization. Under the FL scenario, our simulation results show the effectiveness
+             of our proposed FL-HDC across two datasets, MNIST and ISOLET. Compared with the previous work that transmits complete model parameters to the cloud, FL-HDC greatly
+              reduces 23x and 9x communication costs with comparable accuracy in ISOLET and MNIST, respectively.},
+  title={FL-HDC: Hyperdimensional Computing Design for the Application of Federated Learning},
+  title_html={https://github.com/WesleyHsieh0806/FL-HDC},
+  teaser_html={https://github.com/WesleyHsieh0806/FL-HDC},
+  author={Cheng-Yen Hsieh and Yu-Chuan Chuang and An-Yeu (Andy) Wu},
+  publisher={},
+  journal={IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems (AICAS)},
+  booktitle={},
+  conference={},
+  volume={},
+  issue={},
+  pages={},
+  numpages={},
+  year={2021},
+  month={},
+  code={https://github.com/WesleyHsieh0806/FL-HDC},
+  pdf={https://ieeexplore.ieee.org/document/9458526},
+  selected={true},
+  preview={fl-hdc.png},
+  note={Highly efficienct image recognition under the federated learning (FL) scenario.},
 }

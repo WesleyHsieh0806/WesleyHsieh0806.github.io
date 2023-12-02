@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CMU RI student | Machine Learning Research Engineer
+subtitle: CMU RI student | Machine Learning Research Scientist
 
 profile:
   align: left

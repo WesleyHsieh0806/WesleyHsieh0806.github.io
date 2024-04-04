@@ -1,9 +1,8 @@
 ---
 layout: post
-# title: Joining Bytedance as a research scientist studying Multi-modal Large Language Agents.
-date: 2023-12-5 15:59:00-0400
+date: 2023-05-29 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Actively seeking for 2024 Fall PhD positions.
+Joined Waymo as a Machine Learning Engineer Intern.

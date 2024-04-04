@@ -5,20 +5,22 @@
 
 @book{hsieh2023taoamodal,
   type={article},
-  abstract={Amodal perception, the ability to comprehend complete object structures from partial visibility, is a fundamental skill, even for infants. 
-  Its significance extends to applications like autonomous driving, where a clear understanding of heavily occluded objects is essential. 
-  However, modern detection and tracking algorithms often overlook this critical capability, perhaps due to the prevalence of modal annotations in most datasets. 
-  To address the scarcity of amodal data, we introduce the TAO-Amodal benchmark, featuring 880 diverse categories in thousands of video sequences. 
-  Our dataset includes amodal and modal bounding boxes for visible and occluded objects, including objects that are partially out-of-frame. 
-  To enhance amodal tracking with object permanence, we leverage a lightweight plug-in module, the amodal expander, to transform standard, modal 
-  trackers into amodal ones through fine-tuning on a few hundred video sequences with data augmentation. We achieve a 3.3% and 1.6% improvement on 
-  the detection and tracking of occluded objects on TAO-Amodal. When evaluated on people, our method produces dramatic improvements of 2x compared 
-  to state-of-the-art modal baselines.},
+  abstract={Amodal perception, the ability to comprehend complete object structures from partial visibility, 
+    is a fundamental skill, even for infants. Its significance extends to applications like autonomous driving,
+    where a clear understanding of heavily occluded objects is essential. However, modern detection and tracking 
+    algorithms often overlook this critical capability, perhaps due to the prevalence of modal annotations in most 
+    benchmarks. To address the scarcity of amodal benchmarks, we introduce TAO-Amodal, featuring 833 diverse 
+    categories in thousands of video sequences. Our dataset includes amodal and modal bounding boxes for visible 
+    and partially or fully occluded objects, including those that are partially out of the camera frame. 
+    We investigate the current lay of the land in both amodal tracking and detection by benchmarking state-of-the-art 
+    modal trackers and amodal segmentation methods. We find that existing methods, even when adapted for amodal 
+    tracking, struggle to detect and track objects under heavy occlusion. To mitigate this, we explore simple finetuning 
+    schemes that can increase the amodal tracking and detection metrics of occluded objects by 2.1% and 3.3%.},
   title={Tracking Any Object Amodally},
   title_html={https://tao-amodal.github.io/},
   html={https://tao-amodal.github.io/},
   teaser_html={https://tao-amodal.github.io/},
-  author={Hsieh, Cheng-Yen and Tarasha Khurana and Dave, Achal and Deva Ramanan},
+  author={Hsieh, Cheng-Yen and Kaihua Chen and Dave, Achal and Tarasha Khurana and Deva Ramanan},
   publisher={arXiv},
   journal={in Submission},
   booktitle={arXiv},

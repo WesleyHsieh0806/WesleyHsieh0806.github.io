@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Tiktok as a research scientist in multi-modal language agents and embodied AI.
+Joined ByteDance as a research scientist in multi-modal language agents and embodied AI.

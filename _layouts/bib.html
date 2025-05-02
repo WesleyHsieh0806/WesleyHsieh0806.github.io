@@ -149,9 +149,14 @@
     {%- if entry.year -%}
     {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
     {%- endif -%}
+    {%- if entry.highlight -%}
+      {%- capture entryhighlight -%}{{ " " }}<strong style="color:#F05365">({{ entry.highlight }})</strong>{%- endcapture -%}
+    {%- else -%}
+      {%- capture entryhighlight -%}{%- endcapture -%}
+    {%- endif -%}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{
-    entrymonth }}{{ entryyear }}{%- endcapture -%}
+    entrymonth }}{{ entryyear }}{{ entryhighlight }}{%- endcapture -%}
     <div class="periodical">
       {{ periodical | strip }}
     </div>

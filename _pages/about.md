@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CMU RI student | Machine Learning Research Scientist
+subtitle: CMU RI | Machine Learning Research Scientist
 
 profile:
   align: left
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a research scientist at ByteDance Research, based in San Jose. 
+I am a research scientist at ByteDance Seed, based in San Jose. 
 
 My research covers machine learning and computer vision. My current research focuses on advancing AI for scientific discovery. Specifically, I develop large-scale [multi-modal diffusion language models](https://bytedance.github.io/dplm/) to tackle protein modeling. My earlier work also explored foundation research areas, including [self-supervised learning](https://openaccess.thecvf.com/content/WACV2023/papers/Hsieh_Self-Supervised_Pyramid_Representation_Learning_for_Multi-Label_Visual_Analysis_and_Beyond_WACV_2023_paper.pdf), [amodal object tracking](https://tao-amodal.github.io), [federated learning](http://access.ee.ntu.edu.tw/Publications/Conference/(2021)%20FL-HDC_Hyperdimensional_Computing_Design_for_the_Application_of_Federated_Learning.pdf), and vision language models. 
 

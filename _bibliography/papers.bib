@@ -3,6 +3,52 @@
 
 @string{aps = {American Physical Society,}}
 
+@book{qu2026par,
+  type={article},
+  abstract={We present Protein Autoregressive Modeling (PAR), 
+  the first multi-scale autoregressive framework for protein 
+  backbone generation via coarse-to-fine next-scale prediction. 
+  Leveraging the hierarchical nature of proteins, PAR generates structures 
+  in a sculpting-like process, forming a coarse topology and 
+  progressively refining structural details across scales. 
+  PAR consists of three key components: multi-scale downsampling 
+  operations that represent protein structures across multiple 
+  scales during training; an autoregressive transformer that encodes
+   multi-scale information and produces conditional embeddings to 
+   guide structure generation; and a flow-based backbone decoder 
+   that generates backbone atoms conditioned on these embeddings. 
+   Autoregressive models suffer from exposure bias, caused by the 
+   mismatch between training and generation procedures, which can 
+   substantially degrade structure generation quality. PAR effectively 
+   alleviates this issue through noisy context learning and scheduled sampling, 
+   enabling robust backbone generation. Notably, PAR exhibits strong zero-shot 
+   generalization, supporting flexible human-prompted conditional generation 
+   and motif scaffolding without requiring fine-tuning. 
+   On unconditional generation benchmarks, PAR effectively learns protein distributions,
+    produces backbones of high design quality, and exhibits favorable
+     scaling behavior, establishing PAR as a promising framework for protein 
+     structure generation.},
+  title={Protein Autoregressive Modeling via Multiscale Structure Generation},
+  title_html={https://par-protein.github.io/},
+  teaser_html={https://par-protein.github.io/},
+  author={Yanru Qu{*} and Cheng-Yen Hsieh{*†} and Zaixiang Zheng and Ge Liu and Quanquan Gu},
+  publisher={ByteDance Seed Tech Report},
+  journal={ByteDance Seed Tech Report},
+  booktitle={ByteDance Seed Tech Report},
+  conference={ByteDance Seed Tech Report},
+  volume={},
+  issue={},
+  pages={},
+  numpages={},
+  year={2026},
+  month={},
+  code={https://par-protein.github.io/},
+  pdf={https://arxiv.org/abs/2602.04883},
+  selected={true},
+  preview={/assets/video/PAR_preview.mp4},
+  preview_img={/assets/img/publication_preview/PAR_preview_img.png},
+  note={* Equal contribution; † Project lead.},
+}
 @book{hsieh2025dplm2-1,
   type={article},
   abstract={Multimodal protein language models (PLMs) integrate sequence and token-based structural information,

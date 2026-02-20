@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Joined ByteDance as a AI research scientist.
+Joined ByteDance Seed as an AI research scientist.

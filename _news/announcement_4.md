@@ -1,7 +1,7 @@
 ---
 layout: post
 # title: Joining Bytedance as a research scientist studying Multi-modal Large Language Agents.
-date: 2024-4-16 00:00:00-0400
+date: 2025-4-16 00:00:00-0400
 inline: true
 related_posts: false
 ---

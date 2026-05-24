@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-[PAR](https://par-protein.github.io/) was accepted as **Spotlight** at ICML 2026!
+[PAR](https://par-protein.github.io/) was accepted as **Oral** at ICML 2026!
